@@ -22,6 +22,8 @@ public class SpringWithJenkinsApplication {
 	public static void main(String[] args) {
 		
 		logger.info("application started");
+		
+		logger.info("second log info added in the application");
 		SpringApplication.run(SpringWithJenkinsApplication.class, args);
 	}
 
